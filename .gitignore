@@ -1,0 +1,26 @@
+```plaintext
+# Ignorar arquivos compilados em Python
+__pycache__/
+
+# Ignorar ambientes virtuais
+env/
+.venv/
+
+# Ignorar arquivos de configuração de editores
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+Desenvolva um script em Python que calcule o perímetro de um retângulo com base nas dimensões fornecidas pelo usuário. O script deve seguir as etapas abaixo:
+
+1. Solicitar ao usuário que insira a largura e a altura do retângulo.
+
+2. Implementar uma função chamada calcular_perimetro que receba a largura e a altura como parâmetros e retorne o perímetro do retângulo.
+
+3. Calcular o perímetro utilizando a fórmula:
+   perímetro=2×(largura+altura)
+
+4. Exibir o perímetro calculado, formatado com duas casas decimais.
